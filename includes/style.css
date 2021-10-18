@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --orangeBg: rgb(251, 133, 0);
+  --linkHighlight: rgb(255, 175, 3); 
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: whitesmoke;
+}
+  
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(251, 133, 0);
+  padding-left: 20%;
+}
+  
+/* Style the topnav links */
+.topnav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav li {
+  float: left;
+  display: inline;
+  border-right: 1px solid rgba(255, 168, 87, 0.911); /* shows on my local server but does not show on homepages/ ?*/
+}
+  
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(255, 175, 3);
+  color: white;
+}
+  
+/* Style the content */
+.content {
+  background-color: rgb(235, 235, 235);
+  padding: 10px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+  
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+ /* footer text row */
+.row {
+  text-align: center;
+}
+
+form {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pageNums {
+  float: left;
+}
+
+#curPage {
+  background-color: darkviolet;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 120px;
+    background-color: rgb(251, 133, 0);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+a:hover, a:active{
+    background-color: rgb(255, 183, 3);
+}
